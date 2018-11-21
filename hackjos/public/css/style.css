@@ -1,0 +1,179 @@
+body{
+	position:relative;
+	font-family: 'Raleway', sans-serif;
+	/* padding-top:75px; */
+}
+
+/* .alert-success{ */
+	/* margin-top: 70px; */
+/* } */
+
+.navbar-light .navbar-nav .nav-link{
+	padding-left: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	padding-left: 30px;
+}
+
+
+#section1{
+	background: url("../img/land.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 700px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	position:relative;
+}
+
+.fire{
+	color: #ff1a1a
+}
+
+.visible{
+	position: relative;
+	z-index: 1;
+}
+
+.image-overlay{
+	position: absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+#section1 h1{
+	font-size: 4rem;
+	font-weight: 650;
+}
+
+form{
+	width: 40%;
+	margin: auto;
+}
+
+#login{
+	padding-top: 25%;
+}
+
+#forgot{
+	margin-top: 25%;
+}
+
+.form-control{
+	margin-bottom: 30px;
+}
+
+#fav{
+	margin-top:100px;
+}
+
+#brand{
+	color: rgba(255, 255, 255, .5);
+	font-size: 2rem;
+}
+
+#start{
+	font-size: 25px;
+}
+
+nav{
+	font-weight: 600;
+}
+
+#firsthr{
+	width: 60px;
+	margin-top:35px;
+	margin-bottom:35px;
+	border: 0;
+    height: 1px;
+    background: #fff;
+    background-image: linear-gradient(to right, #fff, #fff, #fff);
+}
+
+#firstbtn{
+	color:white;
+	background: rgba(255, 26, 26, 0.8);
+	margin-top: 35px;
+	outline: none;
+	border: 1.5px solid rgba(255, 26, 26, 0.5);
+}
+
+#firstbtn:hover{
+	background: rgb(255, 26, 26);
+	color:white;
+	outline: none;
+	border: 1.5px solid #ff1a1a;
+}
+
+#firstbtn:focus, #firstbtn.focus{
+	box-shadow: 0 0 0 0.5px rgba(255, 26, 26, 0.5);
+}
+
+#submit{
+	color:white;
+	background: rgba(255, 26, 26, 0.8);
+	outline: none;
+	border: 1.5px solid rgba(255, 26, 26, 0.5);
+}
+
+#submit:hover{
+	background: rgb(255, 26, 26);
+	color:white;
+	outline: none;
+	border: 1.5px solid #ff1a1a;
+}
+
+#submit:focus, #submit.focus{
+	box-shadow: 0 0 0 0.5px rgba(255, 26, 26, 0.5);
+}
+
+#forgot{
+	color: white;
+}
+
+h2{
+	font-weight: 400;
+}
+
+.icon{
+	font-size:65px;
+	color:#595959;
+	padding:30px;
+}
+
+h3{
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+
+@media (max-width: 1024px){
+
+	#start2{
+		text-align: center;
+	}
+
+	#fav{
+		margin-top: 0;
+	}
+
+	#about{
+		padding:40px;
+	}
+
+	.port-overlay{
+		font-size: 1em;
+	}
+}

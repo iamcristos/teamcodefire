@@ -1,0 +1,162 @@
+body{
+	position:relative;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 75px;
+}
+
+nav{
+	position: relative;
+	z-index: 2;
+}
+
+#brand{
+	color: rgba(255, 255, 255, .5);
+	font-size: 2rem;
+}
+
+#avatar{
+	border-radius: 50px;
+}
+
+#avatar2{
+	border-radius: 50px;
+}
+
+.nav-icon{
+	font-size: 2rem;
+	padding-right: 15px;
+}
+
+.fire{
+	color: #ff1a1a
+}
+
+.sidenav{
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; 
+    /*top: 0;*/
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    background: #f1f1f1;
+}
+
+#sidehr{
+	width: 150px;
+	margin-right: 85px;
+}
+
+.sideContent{
+	padding: 6px 8px 6px 16px;
+	margin-bottom: 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.main {
+    margin-left: 280px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+}
+
+#catch{
+	color: #818181;
+	font-size: 20px;
+}
+
+.form-control{
+	width: 750px;
+	display: inline-block;
+}
+
+.writeUp{
+	margin-top: 10px;
+	color: #818181;
+	font-size: 18px;
+}
+
+.posts{
+	margin-top: 50px;
+	margin-right: 200px;
+	text-align: justify;
+	background-color: #f8f9fa;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 2px 5px 5px rgba(136, 136, 136, 0.2);
+}
+
+.user{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#image-post{
+	height: auto;
+	width: 600px;
+	display: block;
+}
+
+/* .interact{ */
+
+/* } */
+
+.reaction-text{
+	display: inline-block;
+	color: #818181;
+	font-size: 18px;
+}
+
+.reaction{
+	padding-left: 15px;
+}
+
+#submit{
+	color:white;
+	background: rgba(255, 26, 26, 0.8);
+	outline: none;
+	border: 1.5px solid rgba(255, 26, 26, 0.5);
+}
+
+#clip{
+	display: block;
+	color: rgba(255, 26, 26, 0.8);
+	text-decoration: none;
+	outline: none;
+	margin-left: 45px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+a:hover{
+	text-decoration: none;
+	outline: none;
+}
+
+#submit:hover{
+	background: rgb(255, 26, 26);
+	color:white;
+	outline: none;
+	border: 1.5px solid #ff1a1a;
+}
+
+#submit:focus, #submit.focus{
+	box-shadow: 0 0 0 0.5px rgba(255, 26, 26, 0.5);
+}
